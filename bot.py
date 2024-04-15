@@ -71,5 +71,3 @@ async def on_message(message):
             print(f'حدث خطأ: {e}')
             await message.channel.send('حدث خطأ أثناء استرجاع الشرح.')
 
-bot.run('MTIxMDk5NzQzNTYxNTE1ODMxMg.GyTpec.es0aQ5oPuWMSnAq2Uit-tPq6uK6KiLRdx0iixQ')
-
