@@ -58,5 +58,4 @@ async function searchExplanation(message, query) {
     }
 }
 
-client.login('MTIxMDk5NzQzNTYxNTE1ODMxMg.GyTpec.es0aQ5oPuWMSnAq2Uit-tPq6uK6KiLRdx0iixQ');
-
+client.login(process.env.DISCORD_TOKEN)
